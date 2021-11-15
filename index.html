@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Banana Chucker</title>
+    <table id="scoreTable" class="scoreTable"></table>
+  </head>
+  <body>
+    <!-- container enclosing quiz-->
+    <div class="container">
+      <div class="quiz">
+        <div id="quiz-header" class="quiz-header">
+          <button id="return-to-game">Return</button>
+          <button id="high-score-btn">View Top Results.</button>
+          <div id="score-output"></div>
+          <div id="timer-output"></div>
+        </div>
+
+        <form id="high-score-form">
+          <label for="fname">Please Enter Your Name:</label><br />
+          <input type="text" id="name" name="name" value="" /><br />
+          <input id="high-score-form-submit-btn" type="submit" value="Submit" />
+        </form>
+
+        <div class="quiz-body" id="quiz-body"></div>
+
+        <button class="start-btn" id="start-btn">Start Game</button>
+        
+
+        <div id="quiz-footer"></div>
+        
+        <table id="high-score-table">
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Name</th>
+              <th>High Score</th>
+            </tr>
+          </thead>
+          <tbody id="table-body"></tbody>
+        </table>
+        
+        <button class="start-btn" id="restart-btn">Restart Game</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
