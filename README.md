@@ -13,4 +13,4 @@ https://box-monkey.github.io/banana-chucker/
 #### screen shots
 ![retrograde](./bc1.png)
 ![retrograde](./bc2.png)
-![retrograde](./bc3.png)
+
